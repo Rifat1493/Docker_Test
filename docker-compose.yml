@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "5001:5001" 
+      - "5001:5000" 
     volumes:
       - ~/../../var/:/var
       - ~/test/Docker_Test/static/:/usr/bin/app/static
